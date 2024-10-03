@@ -64,7 +64,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    kapt (libs.androidx.room.compiler)
+  //  kapt (libs.androidx.room.compiler)
+
+    kapt ("androidx.room:room-compiler:2.6.1")
 
 //    kapt("groupId:artifactId:version")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
